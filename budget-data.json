@@ -2,31 +2,31 @@
     "myBudget": [
     {
     "title" : "Eat out",
-    "budget" : "30"
+    "budget" : 30
     },
     {"title" : "Rent",
-    "budget" : "350"},
+    "budget" : 350},
     {"title" : "Groceries",
-    "budget" : "90"},
+    "budget" : 90},
     {
         "title" : "WiFi",
-        "budget" : "50"
+        "budget" : 50
     },
     {
         "title" : "Gas",
-        "budget" : "80"
+        "budget" : 80
     },
     {
         "title" : "Water",
-        "budget" : "100"
+        "budget" : 100
     },
     {
         "title" : "Shopping",
-        "budget": "120"
+        "budget": 120
     },
     {
         "title" : "Travel",
-        "budget" : "90"
+        "budget" : 90
     }
   
     

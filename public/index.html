@@ -204,7 +204,7 @@
             axios.get('/budget')
             .then(function (res) {
                 console.log(res);
-                var items = (res && res.data && res.data.myBudget) ? res.data.myBudget : [];
+                var items = (res && res.data) ? res.data : [];
                 for (var i = 0; i < items.length; i++) {
                     dataSource.datasets[0].data[i] = items[i].budget;
                     dataSource.labels[i] = items[i].title;
@@ -289,7 +289,7 @@
         }
 
         axios.get('/budget').then(function(res) {
-            var items = (res && res.data && res.data.myBudget) ? res.data.myBudget : [];
+            var items = (res && res.data) ? res.data : [];
             renderD3Donut(items);
         });
     </script>
